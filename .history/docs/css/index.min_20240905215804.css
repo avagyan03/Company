@@ -276,8 +276,7 @@ html {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 40px;
-    margin-bottom: 160px
+    gap: 40px
 }
 
 .block__container,
@@ -681,7 +680,7 @@ html {
     }
 
     .block__container {
-        gap: 120px
+        gap: 120px;
     }
 
     .block__content {
