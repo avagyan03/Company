@@ -1,0 +1,17 @@
+:root {
+	// base
+	--font-family: "Inter", "sans-serif";
+	--content-width: 1200px;
+	--container-offset: 15px;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+	// colors
+	--light-color: #fff;
+	--dark-color: #1d1d1f;
+	--fill-color: #838383;
+	--header-color: var(--light-color);
+
+	@media(min-width:768px){
+		--header-color: transparent;
+	}
+}

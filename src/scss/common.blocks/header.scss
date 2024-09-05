@@ -1,0 +1,34 @@
+.header {
+  position: absolute !important;
+  box-shadow: none !important;
+
+  &__logo {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: var(--dark-color);
+    text-decoration: none;
+    z-index: 102;
+
+    @media(min-width:768px){
+      color: var(--light-color);
+    }
+
+  }
+&__burger{
+
+
+
+  .burger__line{
+    background-color: var(--dark-color);
+
+    @media(min-width:768px){
+
+      background-color: var(--light-color);
+    
+    }
+  }
+}
+
+}

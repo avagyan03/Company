@@ -1,0 +1,215 @@
+.block {
+    padding-top: 20px;
+  
+
+    // .block__container
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+
+        @media(min-width:768px) {
+            gap: 120px;
+
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        @media(max-width:480px){
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+        @media(min-width:768px) {
+            flex-direction: row;
+            align-items: stretch;
+            text-align: start;
+        }
+
+        &_position {
+            display: flex;
+            flex-direction: column-reverse;
+
+            @media(min-width:768px) {
+                flex-direction: row-reverse;
+            }
+        }
+
+
+    }
+
+    &__content-inner {
+       
+        @media(max-width:480px){
+            gap:10px;
+        }
+    }
+
+    // .block__text
+
+    &__text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        color: var(--middle-color);
+    }
+
+    &__name {
+        min-height: 50px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--dark-color);
+        margin-bottom: 60px;
+
+        @media(max-width:480px) {
+            margin-bottom: 30px;
+            
+        }
+
+    }
+
+    &__button {
+        min-width: 180px;
+        height: 60px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        background: var(--dark-color);
+        color: var(--light-color);
+        @media(max-width:480px){
+            margin-bottom: 30px;
+        }
+
+    }
+
+    &__img {
+        max-width: 400px;
+        margin-bottom: 160px;;
+  
+        @media(max-width:480px) {
+            // max-width: 570px;
+            margin-bottom: 30px;;
+        }
+    }
+
+
+
+    &__decor {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        color: var(--middle-color);
+        margin-left: 60px;
+
+
+    }
+
+    &__decors {
+        display: flex;
+        align-items: center;
+        // margin-left: -300px;
+
+
+    }
+
+    &__surname {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--dark-color);
+        margin-left: 60px;
+        margin-bottom: 60px;
+    }
+
+    &__buttons {
+        min-width: 180px;
+        height: 60px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        background: var(--dark-color);
+        color: var(--light-color);
+        // margin-bottom: 210px;
+        // margin-left: 60px;
+    }
+
+
+
+    &__decoration {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: var(--middle-color);
+        margin-bottom: 50px;
+        // margin-left: 150px;
+
+    }
+
+    &__pen {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 150%;
+        color: var(--dark-color);
+        max-width: 820px;
+        // margin-left: 150px;
+        margin-bottom: 30px;
+        @include media-adaptiv-font(36,16);
+
+    }
+
+    &__box {
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        color: black;
+        // margin-left: 150px;
+
+    }
+
+    &__boxs {
+        font-family: var(--font-family);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        color: var(--middle-color);
+        // @media(max-width:480px){
+        //     margin-bottom: 30px;
+        // }
+    }
+    &__slide-img{
+        width: 100%;
+    }
+
+    &__swiper{
+        max-width: 1600px;
+        margin:  0 auto;
+        height: 600px;
+    }
+
+    &__pens{
+        display: flex;
+    }
+
+    &__content{
+
+    }
+
+
+}
