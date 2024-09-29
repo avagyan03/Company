@@ -3,10 +3,14 @@
 
 }
 .nav__list {
-padding: 20px 0px !important;
+	// display: flex;
+	// gap: 30px;
+	// margin: 0;
+	// padding: 0;
+	// list-style: none;
 }
 .nav__item {
-	
+	color: var(--light-color) !important;
 }
 
 .nav__link {
@@ -17,8 +21,7 @@ padding: 20px 0px !important;
 	color: var(--light-color) !important;
 	
 	.nav__link {
-		color: var(--light-color) !important;
-		font-size: 30px !important;
+		color:var(--dark-color) !important;
 	}
 	
 }
