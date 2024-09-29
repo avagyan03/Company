@@ -18,11 +18,9 @@
   }
 
   &__burger {
-    @media(max-width:480px){
-      background-color: var(--light-color) !important;
-
-    }
-
+.open__menu {
+  
+}
     .burger__line {
       z-index: 102;
     color: var(--dark-color);

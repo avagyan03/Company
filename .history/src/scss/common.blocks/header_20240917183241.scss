@@ -20,7 +20,7 @@
   &__burger {
     @media(max-width:480px){
       background-color: var(--light-color) !important;
-
+      color: var(--dark-color) !important;
     }
 
     .burger__line {

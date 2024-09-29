@@ -18,13 +18,8 @@
   }
 
   &__burger {
-    @media(max-width:480px){
-      background-color: var(--light-color) !important;
 
-    }
-
-    .burger__line {
-      z-index: 102;
+    .burger__show {
     color: var(--dark-color);
 
       @media(min-width:768px) {

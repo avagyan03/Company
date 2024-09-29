@@ -4,9 +4,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 200px;;
- 
-  @media(max-width:650x){
-    margin: 0;
+  @media(max-width:480px){
     min-height: 600px;
     margin-bottom: 50px;;
 }

@@ -11,21 +11,16 @@
     text-decoration: none;
     z-index: 102;
 
-    @media(min-width:768px) {
+    @media(min-width:480px) {
       color: var(--light-color);
     }
 
   }
 
   &__burger {
-    @media(max-width:480px){
-      background-color: var(--light-color) !important;
-
-    }
 
     .burger__line {
-      z-index: 102;
-    color: var(--dark-color);
+      background-color: var(--dark-color);
 
       @media(min-width:768px) {
 
