@@ -1,6 +1,9 @@
 .block {
     padding-top: 20px;
     padding-bottom: 190px;
+    @media(max-width:650px){
+        padding-bottom: 30px;;
+    }
 
 
     // .block__container
