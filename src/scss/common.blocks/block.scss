@@ -27,18 +27,18 @@
         justify-content: space-between;
         gap: 30px;
 
-        @media(max-width:650px) {
+        @media(max-width:768px) {
             display: flex;
             flex-direction: column;
         }
 
 
 
-        @media(min-width:768px) {
-            flex-direction: row;
-            align-items: stretch;
-            text-align: start;
-        }
+        // @media(min-width:768px) {
+        //     flex-direction: row;
+        //     align-items: stretch;
+        //     text-align: start;
+        // }
 
         &_position {
             display: flex;
